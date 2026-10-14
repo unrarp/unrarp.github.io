@@ -62,6 +62,19 @@ a:hover {
 	fill: var(--text-color);
 }
 
+/* holds <symbol> icon definitions referenced via <use> */
+.sprite {
+	display: none;
+}
+
+/* icons inline with text, e.g. the GitHub marker on source-code links */
+.inline-icon {
+	width: 0.9em;
+	height: 0.9em;
+	vertical-align: -0.1em;
+	fill: currentColor;
+}
+
 /*** logo ***/
 .logo-container {
 	text-align: center;
