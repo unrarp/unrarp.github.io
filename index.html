@@ -1,40 +1,77 @@
----
-layout: base
----
-<div class="wrapper">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul Parsani &#8226; Software Engineer @WhatsApp</title>
+
+  <link rel="apple-touch-icon" href="/images/all-inclusive.png"/>
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="http://unrarp.github.io/favicon.ico" />
+
+  <link rel="stylesheet" href="/assets/normalize.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  <link rel="canonical" href="http://unrarp.github.io/">
+
+  <meta name="author" content="Rahul Parsani">
+  <meta name="description" content="Software Engineer <a href='https://www.whatsapp.com/'>@WhatsApp</a>"/>
+
+  <!-- Open Graph tags -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Software Engineer <a href='https://www.whatsapp.com/'>@WhatsApp</a>"/>
+  <meta property="og:url" content="http://unrarp.github.io/"/>
+  <meta property="og:image" content="http://unrarp.github.io/images/all-inclusive.png"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:site_name" content="Software Engineer <a href='https://www.whatsapp.com/'>@WhatsApp</a>">
+
+  <!-- Twitter Card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Software Engineer <a href='https://www.whatsapp.com/'>@WhatsApp</a>">
+  <meta name="twitter:url" content="http://unrarp.github.io/">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image:src" content="http://unrarp.github.io/images/all-inclusive.png">
+
+  <meta name="theme-color" content="#F1EED9">
+</head>
+<body>
+  <div class="wrapper">
     <header>
-        {% if site.compass.logo %}
-        <div class="logo-container">
-          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
-        </div>
-        {% endif %}
+      <div class="logo-container">
+        <a class="logo" href="" style="background-image: url('/images/all-inclusive.png')"></a>
+      </div>
 
-        {% if site.compass.author %}
-        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
-        {% endif %}
+      <div class="author-container"><h1>Rahul Parsani</h1></div>
 
-        {% if site.compass.tagline %}
-        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
-        {% endif %}
+      <div class="tagline-container"><p>Software Engineer <a href='https://www.whatsapp.com/'>@WhatsApp</a></p></div>
 
-        <div class="social-container">
-          <a href="https://github.com/unrarp" class="social-item">
-            <span class="fa fa-github fa-lg social-item-icon">
-          </a>
-          <a href="https://twitter.com/unrarp" class="social-item">
-            <span class="fa fa-twitter fa-lg social-item-icon">
-          </a>
-          <a href="https://www.linkedin.com/in/rahulparsani" class="social-item">
-            <span class="fa fa-linkedin fa-lg social-item-icon">
-          </a>
-        </div>
-
+      <div class="social-container">
+        <a href="https://github.com/unrarp" class="social-item">
+          <span class="fa fa-github fa-lg social-item-icon">
+        </a>
+        <a href="https://twitter.com/unrarp" class="social-item">
+          <span class="fa fa-twitter fa-lg social-item-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/rahulparsani" class="social-item">
+          <span class="fa fa-linkedin fa-lg social-item-icon">
+        </a>
+      </div>
     </header>
     <main>
-      {% if site.compass.include_content %}
       <div class="content">
-        {% include content.html %}
+        <h2>About</h2>
+        <p>I'm Rahul Parsani, a software developer living in London.</p>
+
+        <h2>Code</h2>
+        <ul>
+          <li><a href="https://github.com/unrarp/WuNameAAS/">WuNameAAS</a> - Wu-Tang Clan Name Generator As A Service</li>
+          <li><a href="https://github.com/unrarp/material-calculator/">material-calculator</a> - Material Calculator from AOSP ported to work from Android 2.3.3 & up</li>
+          <li><a href="https://github.com/unrarp/google-io-2014-compat/">google-io-2014-compat</a> - Android demo for the Material Witness talk presented at Google I/O ported to work from Android 2.3.3 & up</li>
+          <li><a href="https://github.com/unrarp/UberAPI-Android-Demo/">UberAPI-Android-Demo</a> - Sample android app that works with Uber's external API</li>
+        </ul>
       </div>
-      {% endif %}
     </main>
-</div>
+  </div>
+</body>
+</html>
